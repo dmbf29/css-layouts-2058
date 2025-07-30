@@ -1,1 +1,37 @@
 /* TODO: Build layout for campuses page */
+.campuses {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 16px;
+}
+
+
+@media (min-width: 100px) and (max-width: 575px) {
+  .campuses {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (min-width: 576px) {
+  .campuses {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (min-width: 768px) {
+  .campuses {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media (min-width: 992px) {
+  .campuses {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
+
+@media (min-width: 1200px) {
+  .campuses {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
